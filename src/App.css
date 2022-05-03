@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0, auto;
+
+}
+
+.btn-login{
+  margin-top: 20px;
+  text-align: center;
+  transform: translate(0,50%);
+}
+
+.btn-login a{
+  display: flex;
+  color: black;
+  font-size: 23px;
+}
+
+form {
+  padding: 3px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.form-input{
+  text-align: center;
+}
+
+.form-input label{
+  display: block;
+}
+
+.form-input input{
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  outline: 1px solid #ccc;
+  border-radius: 5px;
+  width: 280px;
+  transition: 0.3s;
+}
